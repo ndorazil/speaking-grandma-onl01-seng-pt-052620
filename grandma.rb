@@ -14,7 +14,7 @@
 
 
 
-def speak_to_grandma(phrase = "I LOVE YOU GRANDMA!")
+def speak_to_grandma(phrase = gets.chomp)
   if phrase.upcase == phrase
     puts "I LOVE YOU TOO PUMPKIN!"
     elsif phrase.upcase != phrase
