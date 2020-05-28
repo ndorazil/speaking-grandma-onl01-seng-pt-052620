@@ -21,7 +21,6 @@ def speak_to_grandma(phrase)
   else 
     "NO, NOT SINCE 1983!"
   end
-  
 end
 
     
