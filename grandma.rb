@@ -16,7 +16,7 @@ speak_to_grandma = gets.chomp
 
 if speak_to_grandma == "I LOVE YOU GRANDMA!".upcase
   puts "I LOVE YOU TOO PUMPKIN!"
-  elsif speak_to_grandma.upcase
+  elsif speak_to_grandma == gets.chomp.upcase
   puts "NO, NOT SINCE 1938!"
 else 
   puts "HUH?! SPEAK UP, SONNY!"
